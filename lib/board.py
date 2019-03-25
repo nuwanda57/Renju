@@ -172,21 +172,16 @@ class Board(object):
         for i in range(col + 1, BOARD_SIZE):
             if self._cells[row][i] == color:
                 right = (row, i)
-                #print(right)
                 cnt += 1
             else:
                 break
         for i in range(col - 1, -1, -1):
             if self._cells[row][i] == color:
                 left = (row, i)
-                #print(left)
                 cnt += 1
             else:
                 break
         if cnt >= check_cnt:
-            #print(move)
-            #print(self._cells)
-            #print(left, right)
             return left, right
         return None
 
