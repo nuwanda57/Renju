@@ -1,8 +1,5 @@
 # RENJU (5 in a row)
 
-THERE IS A BUG IN MCTS! IN HELPER FUNCTIONS! TODO: FIND AND FIX!
-game: "white":"nevanda","result":"black","dump":"h8 g6 h7 h6 j6 g8 g7 f7 j7 k6 j9 f6 j8 j5 j10"}
-
 ***
 
 ## GUI
